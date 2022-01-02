@@ -1,0 +1,19 @@
+<%- include('./partials/head.ejs') %>
+
+<body>
+    <%- include('./partials/nav.ejs') %>
+
+    <!-- Main Site Content here. -->
+    <main>
+        <h1>Hello World!</h1>
+        <div class="api-calls">
+            <h2>data: <%= data.name %></h2>
+            <h3>description: <%= data.description %></h3>
+        </div>
+    </main>
+
+    <%- include('./partials/footer.ejs') %>
+    <%- include('./partials/scripts.ejs') %>
+</body>
+
+<%- include('./partials/end.ejs') %>
